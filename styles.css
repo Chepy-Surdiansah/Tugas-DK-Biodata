@@ -1,0 +1,182 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Sans-Serif;
+  line-height: 1.6;
+  background-color: white;
+  color: #333;
+}
+
+/* Header and Navigation */
+header {
+  background-color: skyblue;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav-logo img.logo {
+  height: 40px;
+}
+
+.nav-logo span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: black;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headers*/
+h2 {
+  margin-bottom: 15px;
+  color: black;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+
+/* Profile Section*/
+.bio {
+  margin: 100px 0;
+}
+
+.bio label {
+  font-weight: bold;
+  display: inline-block;
+  width: 150px;
+  color: #555;
+}
+
+.bio p {
+  display: inline-block;
+  color: #333;
+}
+
+/* Foto Profil di Halaman Utama */
+.about-photo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-photo img.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+  object-fit: cover;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Education Section */
+.education-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.education-list li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.education-list li img.edu-logo {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Skills Section */
+.skills p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: 555;
+}
+
+.skills p strong {
+  color: #333;
+}
+
+/* Contact Section */
+.social-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.social-link :img {
+  height: 50%;
+  width: 50%;
+  object-fit: container;
+}
+
+.social-link :hover {
+  background-color: grey;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: skyblue;
+  color: #fff;
+  margin-top: 20px;
+  border-top: 2px;
+}
